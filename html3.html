@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+    
+    <!문서의 정보를 작성하는 영역>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport">
+        <title>CSS</title>
+        
+        <!--
+            내부 스타일 시트: html 내부에 css 코드 작성
+        -->
+        <style>
+            h1{color:greenyellow;}
+            /*rgba의 4번째 값은 투명도를 의미*/
+            h2{color:rgba(255,0,200,0.5);}
+            h3{color:#0000ff}
+            p{color:blue;}
+        </style>
+        
+        <!--
+            외부 스타일 시트: css 파일을 따로 만들어 link
+        -->
+        <link href="style.css" rel="stylesheet">
+    </head>
+    
+    <!사용자에게 실제로 노출되는 영역>
+    <body>
+        <h1>css 실습 기초</h1>
+        <h2>css 실습 기초입니다.</h2>
+        <h3>css를 배워봅시다.</h3>
+        <p>안녕하세요. 박병규입니다.</p>
+        <p style="color:green">안녕하세요. 박병규입니다.</p>
+    </body>
+</html>
